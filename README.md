@@ -1,2 +1,2 @@
-hw-algorithm
-============
+AlgorithmDesign
+===============
