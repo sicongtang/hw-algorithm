@@ -11,6 +11,7 @@ package com.careercup.crack.chapter2;
 public class Q2 {
 
 	public static Node nthToLast(Node head, int n) {
+		//1. calculate sum
 		int sum = 0;
 		Node node = head;
 		while (node.next != null) {
@@ -18,6 +19,7 @@ public class Q2 {
 			sum++;
 		}
 
+		//2. calculate the offset from head
 		int j = sum - n;
 		Node node2 = null;
 		if (j >= 0) {
