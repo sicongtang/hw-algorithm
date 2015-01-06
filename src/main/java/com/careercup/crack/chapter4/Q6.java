@@ -9,5 +9,5 @@ package com.careercup.crack.chapter4;
  *
  */
 public class Q6 {
-
+	
 }
